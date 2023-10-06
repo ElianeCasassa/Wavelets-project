@@ -2,6 +2,10 @@
  
 Projet réalisé et implémenté par Eliane Casassa (MSIAM 2) pour le cours de wavelets en 3ème année à l'ENSIMAG en 2021/2022.
 
+
+
+![3](https://github.com/ElianeCasassa/Wavelets-project/assets/105204079/10999484-1e74-4621-b4e8-324ccffa33e9)
+
 Objectif du projet : Choisir et implémenter un papier de recherche utilisant les ondelettes
 
 Papier utilisé :
