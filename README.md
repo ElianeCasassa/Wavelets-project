@@ -8,8 +8,9 @@ Projet réalisé et implémenté par Eliane Casassa (MSIAM 2) pour le cours de w
 
 ## Objectif du projet : Choisir et implémenter un papier de recherche utilisant les ondelettes
 
-*Papier utilisé :
-An edge detection approach based on directional wavelet transform publié en 2009 par Zhen Zhang, Siliang Ma, Hui Liu et Yuexin Gong.*
+*Papier utilisé :*
+
+*An edge detection approach based on directional wavelet transform publié en 2009 par Zhen Zhang, Siliang Ma, Hui Liu et Yuexin Gong.*
 
 ## Introduction : 
 La détection de contours constitue souvent une étape préliminaire à de nombreuses applications en traitement d’images comme la reconnaissance d’objets, de formes ainsi que la compression d’images. En effet les contours sont les parties les plus informatives d’une image. Il existe beaucoup d’algorithmes permettant la détection des contours mais les plus utilisés sont les algorithmes de Prewitt, de Sobel et de Canny. Ce sont des algorithmes basés sur le calcul des gradients des images. Mallat s’est également penché sur la question en utilisant la transformée en ondelettes.
@@ -20,15 +21,15 @@ Les modifications apportés par ce papier consistent principalement à augmenter
 
 
 ## Etapes clés de l'algorithme
-\begin{enumerate}
-\item Lissage de l'image
-\item Calcul du gradient en chaque pixel
-\item Détection des maximums locaux
-\item Et enfin un seuillage des maximums locaux précédents
-\end{enumerate}
+
+- Lissage de l'image
+- Calcul du gradient en chaque pixel
+- Détection des maximums locaux
+- Et enfin un seuillage des maximums locaux précédents
 
 
 
+## Exécution
 
 Afin de lancer l'exécution du projet veuillez choisir les paramètres voulu ainsi que l'image utilisée dans le fichier main puis exécuter :
                           python3 main.py
